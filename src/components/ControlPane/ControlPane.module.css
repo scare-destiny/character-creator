@@ -10,7 +10,22 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow: auto;
+  white-space: nowrap;
 }
+
+
+@media (max-width: 400px) {
+  .controlPane {
+    flex: 0 0 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: auto;
+  }
+}
+
+
 
 .title {
   margin: 0;

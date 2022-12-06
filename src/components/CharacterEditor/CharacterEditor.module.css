@@ -1,4 +1,5 @@
 .characterEditor {
+  
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -7,6 +8,7 @@
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +26,18 @@
 }
 
 .characterWrapper {
+  /* min-height: 500px; */
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+
+@media (max-width: 400px) {
+  .controlColumn {
+    display: flex;
+    flex-direction: row;
+   gap: 10px;
+  }
 }
